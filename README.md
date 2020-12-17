@@ -1,14 +1,14 @@
-# Trabalho 3 - FSE - Controle de Temperatura de Ambiente Controlado
+# Trabalho Final - FSE - Sistema Sistribuído de Automação Residencial 
 aluno: Lucas Penido Antunes  
 matrícula: 16/0013143
 
-Repositório com a solução do trabalho 3.
+Repositório com a solução do trabalho final.
 
 ## Projeto
 
-Este trabalho tem por objetivo a familiarização com o framework de desenvolvimento ESP-IDF para a programação do ESP32-Dev-Kit. Mais especificamente o controle do sistema de Wifi juntamente com o acionamento da GPIO.
+O objetivo deste trabalho é criar um sistema distribuído de automação residencial utilizando como sistema computacional central uma placa Raspberry Pi 4 e como controladores distribuídos placas ESP32, interconectados via Wifi através do protocolo MQTT.
 
-Para uma maior descrição do projeto visitar este [GitLab](https://gitlab.com/fse_fga/projetos/projeto-3).
+Para uma maior descrição do projeto visitar este [GitLab](https://gitlab.com/fse_fga/projetos/trabalho-final).
 
 ### Configurando o programa
 
@@ -16,7 +16,7 @@ Para configurar o Wifi execute o comando:
 
 `idf.py menuconfig` 
 
-Após o menu abrir selecione a opção "Configuração do Wifi" e configure o SSID e a senha. Depois na opção "Configuração das Chaves das APIs" configure a chave da API do [IpStack](https://ipstack.com/) e a chave da API da [Open Weather Map](https://openweathermap.org/api).  
+Após o menu abrir selecione a opção "Configuração do Wifi" e configure o SSID e a senha. Depois na opção "Configuração de Matrícula" configure a matrícula do aluno.  
 
 Após todas as configurações serem feitas rode o seguinte comando para dar o build no projeto.
 

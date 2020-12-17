@@ -1,0 +1,23 @@
+menu "Configuração do Wifi"
+
+    config ESP_WIFI_SSID
+        string "WiFi SSID"
+        default "ssid"
+        help
+            Nome da rede Wifi.
+
+    config ESP_WIFI_PASSWORD
+        string "Senha do Wifi"
+        default "minha_senha"
+        help
+            Senha do WiFi (WPA or WPA2).
+endmenu
+
+menu "Configuração de Matrícula"
+
+    config MATRICULA
+        string "Matrícula"
+        default "160013143"
+        help
+            Matrícula do estudante para criar um canal exclusivo mqtt.
+endmenu
